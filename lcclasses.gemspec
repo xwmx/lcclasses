@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{lcclasses}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["William Melody"]
-  s.date = %q{2010-02-25}
+  s.date = %q{2010-02-26}
   s.description = %q{Library of Congress Classification classes and subclasses}
   s.email = %q{hi@williammelody.com}
   s.extra_rdoc_files = [
