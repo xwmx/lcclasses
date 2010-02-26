@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "lcclasses"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Library of Congress Classification classes and subclasses}
+    gem.description = %Q{Library of Congress Classification classes and subclasses}
     gem.email = "hi@williammelody.com"
     gem.homepage = "http://github.com/autodata/lcclasses"
     gem.authors = ["William Melody"]
