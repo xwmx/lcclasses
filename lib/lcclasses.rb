@@ -248,7 +248,7 @@ module LCClasses
         "PQ" => { :name => "French literature - Italian literature - Spanish literature - Portuguese literature" },
         "PR" => { :name => "English literature" },
         "PS" => { :name => "American literature" },
-        "PT" => { :name => "German literature - Dutch literature - Flemish literature since 1830 -Afrikaans literature - Scandinavian literature - Old Norse literature: Old Icelandic and Old Norwegian - Modern Icelandic literature - Faroese literature - Danish literature - Norwegian literature - Swedish literature" },
+        "PT" => { :name => "Germanic, Scandinavian, and Icelandic literatures" },
         "PZ" => { :name => "Fiction and juvenile belles lettres" },
       }
     },
