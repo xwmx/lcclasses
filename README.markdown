@@ -40,7 +40,7 @@ The CLASS\_HASH conststant is in the following format (truncated example):
       }
     }
     
-Classes are returned as specialized LCClasses::Class arrays in the format [code, name]. In the case of nested LCClasses:LCClass objects, they are in the format [main\_class\_code, main\_class\_name, [[subclass\_code, subclass\_name]]]. These objects are normal arrays with the following methods added:
+Classes are returned as specialized LCClasses::Class arrays in the format `[code, name]`. In the case of nested LCClasses:LCClass objects, they are in the format `[main_class_code, main_class_name, [[subclass_code, subclass_name]]]`. These objects are normal arrays with the following methods added:
 
     @class = LCClasses.find_main_class_by_code("M")
     @class.code
