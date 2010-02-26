@@ -386,6 +386,10 @@ module LCClasses
     LCClasses::LCClass.flatten(LCClasses::CLASS_HASH)
   end
   
+  def self.find_by_code(code)
+    LCClasses.flat.detect { |i| i[0] == code.to_s }
+  end
+  
   # Find an main classe by code.
   def self.find_main_class_by_code(code)
     LCClasses.main_classes.detect { |i| i[0] == code.to_s }
@@ -395,7 +399,7 @@ module LCClasses
   def self.find_subclass_by_code(code)
     LCClasses.subclasses.detect { |i| i[0] == code.to_s }
   end
-  
+    
   # Find all main classes and subclass that match or start with a code or character.
   def self.find_all_by_code(code)
     LCClasses.flat.select { |i| i[0] if (i[0] =~ /^#{code}[A-Z]?[A-Z]?/) }

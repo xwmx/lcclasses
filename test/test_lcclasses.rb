@@ -19,8 +19,13 @@ class TestLCClasses < Test::Unit::TestCase
     assert_equal 223, LCClasses.nested.inject([]) { |r, m| r += m.subclasses }.length
   end
   
+  should "find main class or subclass by code" do
+    assert_equal ["T", "Technology"], LCClasses.find_by_code("T")
+    assert_equal ["AM", "Museums. Collectors and collecting"], LCClasses.find_by_code("AM")
+  end
+  
   should "find main class by code" do
-    assert_equal ["T", "Technology (General)"], LCClasses.find_subclass_by_code("T")
+    assert_equal ["T", "Technology"], LCClasses.find_main_class_by_code("T")
   end
   
   should "find subclass by code" do
