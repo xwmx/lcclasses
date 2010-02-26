@@ -97,7 +97,7 @@ module LCClasses
         "DE"   => { :name => "Greco-Roman World" },
         "DF"   => { :name => "Greece" },
         "DG"   => { :name => "Italy - Malta" },
-        "DH"   => { :name => "Low Countries - Benelux Countries (Continued on next page)" },
+        "DH"   => { :name => "Low Countries - Benelux Countries" },
         "DJ"   => { :name => "Netherlands (Holland)" },
         "DJK"  => { :name => "Eastern Europe (General)" },
         "DK"   => { :name => "Russia. Soviet Union. Former Soviet Republics - Poland" },
