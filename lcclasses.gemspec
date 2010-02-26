@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.markdown",
      "Rakefile",
      "VERSION",
+     "lcclasses.gemspec",
      "lib/lcclasses.rb",
      "test/test_helper.rb",
      "test/test_lcclasses.rb"
