@@ -44,7 +44,7 @@ module LCClasses
         "AG"   => { :name => "Dictionaries and other general reference works" },
         "AI"   => { :name => "Indexes" },
         "AM"   => { :name => "Museums. Collectors and collecting" },
-        "AN"   => { :name => "AN Newspapers" },
+        "AN"   => { :name => "Newspapers" },
         "AP"   => { :name => "Periodicals" },
         "AS"   => { :name => "Academies and learned societies" },
         "AY"   => { :name => "Yearbooks. Almanacs. Directories" },
