@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Library of Congress Classification classes and subclasses}
     gem.description = %Q{Library of Congress Classification classes and subclasses}
     gem.email = "hi@williammelody.com"
-    gem.homepage = "http://github.com/autodata/lcclasses"
+    gem.homepage = "http://github.com/alphabetum/lcclasses"
     gem.authors = ["William Melody"]
     gem.add_development_dependency "thoughtbot-shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings

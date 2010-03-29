@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{lcclasses}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["William Melody"]
-  s.date = %q{2010-02-26}
+  s.date = %q{2010-03-29}
   s.description = %q{Library of Congress Classification classes and subclasses}
   s.email = %q{hi@williammelody.com}
   s.extra_rdoc_files = [
@@ -28,10 +28,10 @@ Gem::Specification.new do |s|
      "test/test_helper.rb",
      "test/test_lcclasses.rb"
   ]
-  s.homepage = %q{http://github.com/autodata/lcclasses}
+  s.homepage = %q{http://github.com/alphabetum/lcclasses}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Library of Congress Classification classes and subclasses}
   s.test_files = [
     "test/test_helper.rb",
