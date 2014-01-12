@@ -25,9 +25,9 @@ The entire set of classes can be retrieved in 3 formats:
 
     LCClasses::CLASS_HASH
     => # nested hash of classes and subclasses
-    LCClases.nested
+    LCClasses.nested
     => # nested array of classes and subclasses as LCClasses::LCClass objects
-    LCClases.flat
+    LCClasses.flat
     => # flat array of classes and subclasses as LCClasses::LCClass objects
 
 The CLASS\_HASH conststant is in the following format (truncated example):
