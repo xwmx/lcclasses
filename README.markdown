@@ -30,7 +30,7 @@ The entire set of classes can be retrieved in 3 formats:
     LCClasses.flat
     => # flat array of classes and subclasses as LCClasses::LCClass objects
 
-The CLASS\_HASH conststant is in the following format (truncated example):
+The CLASS\_HASH constant is in the following format (truncated example):
 
     { "A" => { 
         :name => "General Works",
