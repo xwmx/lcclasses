@@ -1,6 +1,6 @@
 module LCClasses
   class LCClass < Array
-    
+
     # Convert nested LCClasses::CLASS_HASH to nested array.
     def self.nest(hash)
       return self[] if hash.nil?
@@ -12,7 +12,7 @@ module LCClasses
         end
       end
     end
-    
+
     # Convert nested LCClasses::CLASS_HASH to flat array.
     def self.flatten(hash)
       return self[] if hash.nil?
@@ -21,22 +21,22 @@ module LCClasses
         result += self.flatten(klass[1][:subclasses])
       end
     end
-    
+
     # Return the subclasses of this class, if any.
     def subclasses
       return unless i = LCClasses::CLASS_HASH[self[0]]
       LCClasses::LCClass.nest(i[:subclasses])
     end
-    
+
     # The class code.
     def code; self[0] end
     # THe class name.
     def name; self[1] end
   end
-  
+
   # Library of Congress Main Classes and Subclasses
   CLASS_HASH = {
-    "A" => { 
+    "A" => {
       :name => "General Works",
       :subclasses => {
         "AC"   => { :name => "Collections; Series; Collected works" },
@@ -361,48 +361,48 @@ module LCClasses
       }
     }
   }
-  
+
   # An array of main LC Classes.
   def self.main_classes
     CLASS_HASH.map do |k,v|
       LCClasses::LCClass[k,v[:name]]
     end.sort
   end
-  
+
   # An array of all LC Subclasses.
   def self.subclasses
     self.main_classes.inject([]) do |result, main_class|
       result += main_class.subclasses
     end
   end
-  
+
   # A nested array of main classes and subclasses.
   def self.nested
     LCClasses::LCClass.nest(LCClasses::CLASS_HASH)
   end
-  
+
   # All main classes and subclasses in a flat array.
   def self.flat
     LCClasses::LCClass.flatten(LCClasses::CLASS_HASH)
   end
-  
+
   def self.find_by_code(code)
     LCClasses.flat.detect { |i| i[0] == code.to_s }
   end
-  
+
   # Find an main classe by code.
   def self.find_main_class_by_code(code)
     LCClasses.main_classes.detect { |i| i[0] == code.to_s }
   end
-  
+
   # Find a subclass by code.
   def self.find_subclass_by_code(code)
     LCClasses.subclasses.detect { |i| i[0] == code.to_s }
   end
-    
+
   # Find all main classes and subclass that match or start with a code or character.
   def self.find_all_by_code(code)
     LCClasses.flat.select { |i| i[0] if (i[0] =~ /^#{code}[A-Z]?[A-Z]?/) }
   end
-  
+
 end

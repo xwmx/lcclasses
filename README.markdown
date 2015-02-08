@@ -5,7 +5,7 @@ A Ruby gem that provides the Library of Congress Classification system main clas
 To install:
 
     gem install lcclasses
-    
+
 ## Usage
 
 To find a classification code:
@@ -32,14 +32,14 @@ The entire set of classes can be retrieved in 3 formats:
 
 The CLASS\_HASH constant is in the following format (truncated example):
 
-    { "A" => { 
+    { "A" => {
         :name => "General Works",
         :subclasses => {
           "AC" => { :name => "Collections; Series; Collected works" }
         }
       }
     }
-    
+
 Classes are returned as specialized LCClasses::Class arrays in the format `[code, name]`. In the case of nested LCClasses:LCClass objects, they are in the format `[main_class_code, main_class_name, [[subclass_code, subclass_name]]]`. These objects are normal arrays with the following methods added:
 
     @class = LCClasses.find_main_class_by_code("M")
@@ -51,7 +51,7 @@ Classes are returned as specialized LCClasses::Class arrays in the format `[code
     => [["M", "Music"], ["ML", "Literature on music"], ["MT", "Instruction and study"]]
 
 ## Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
