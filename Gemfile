@@ -6,8 +6,7 @@ source "http://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development, :test do
-  gem "minitest", "~> 4.7.5"
-  gem "rdoc", "~> 3.12"
-  gem "shoulda", ">= 0"
+  gem "minitest"
+  gem "rdoc"
   gem "rake"
 end
