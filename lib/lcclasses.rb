@@ -48,7 +48,7 @@ module LCClasses
         "AP"   => { :name => "Periodicals" },
         "AS"   => { :name => "Academies and learned societies" },
         "AY"   => { :name => "Yearbooks. Almanacs. Directories" },
-        "AZ"   => { :name => "History of scholarship and learning. The humanities" },
+        "AZ"   => { :name => "History of scholarship and learning. The humanities" }
       }
     },
     "B" => {
@@ -68,7 +68,7 @@ module LCClasses
         "BS"   => { :name => "The Bible" },
         "BT"   => { :name => "Doctrinal Theology" },
         "BV"   => { :name => "Practical Theology" },
-        "BX"   => { :name => "Christian Denominations" },
+        "BX"   => { :name => "Christian Denominations" }
       }
     },
     "C" => {
@@ -82,7 +82,7 @@ module LCClasses
         "CN"   => { :name => "Inscriptions. Epigraphy" },
         "CR"   => { :name => "Heraldry" },
         "CS"   => { :name => "Genealogy" },
-        "CT"   => { :name => "Biography" },
+        "CT"   => { :name => "Biography" }
       }
     },
     "D" => {
@@ -108,14 +108,14 @@ module LCClasses
         "DS"   => { :name => "Asia" },
         "DT"   => { :name => "Africa" },
         "DU"   => { :name => "Oceania (South Seas)" },
-        "DX"   => { :name => "Gypsies" },
+        "DX"   => { :name => "Gypsies" }
       }
     },
     "E" => {
-      :name => "History of America, United States",
+      :name => "History of America, United States"
     },
     "F" => {
-      :name => "Local History of the United States and British, Dutch, French, and Latin America",
+      :name => "Local History of the United States and British, Dutch, French, and Latin America"
     },
     "G" => {
       :name => "Geography, Anthropology, Recreation",
@@ -129,7 +129,7 @@ module LCClasses
         "GN" => { :name => "Anthropology" },
         "GR" => { :name => "Folklore" },
         "GT" => { :name => "Manners and customs (General)" },
-        "GV" => { :name => "Recreation. Leisure" },
+        "GV" => { :name => "Recreation. Leisure" }
       }
     },
     "H" => {
@@ -150,7 +150,7 @@ module LCClasses
         "HS" => { :name => "Societies: secret, benevolent, etc." },
         "HT" => { :name => "Communities. Classes. Races" },
         "HV" => { :name => "Social pathology. Social and public welfare. Criminology" },
-        "HX" => { :name => "Socialism. Communism. Anarchism" },
+        "HX" => { :name => "Socialism. Communism. Anarchism" }
       }
     },
     "J" => {
@@ -168,7 +168,7 @@ module LCClasses
         "JS" => { :name => "Local government. Municipal government" },
         "JV" => { :name => "Colonies and colonization. Emigration and immigration. International migration" },
         "JX" => { :name => "International law, see JZ and KZ (obsolete)" },
-        "JZ" => { :name => "International relations" },
+        "JZ" => { :name => "International relations" }
       }
     },
     "K" => {
@@ -188,7 +188,7 @@ module LCClasses
         "KH"      => { :name => "South America" },
         "KJ-KKZ"  => { :name => "Europe" },
         "KL-KWX"  => { :name => "Asia and Eurasia, Africa, Pacific Area, and Antarctica" },
-        "KZ"      => { :name => "Law of nations" },
+        "KZ"      => { :name => "Law of nations" }
       }
     },
     "L" => {
@@ -204,7 +204,7 @@ module LCClasses
         "LG" => { :name => "Individual institutions - Asia, Africa, Indian Ocean islands, Australia, New Zealand, Pacific islands" },
         "LH" => { :name => "College and school magazines and papers" },
         "LJ" => { :name => "Student fraternities and societies, United States" },
-        "LT" => { :name => "Textbooks" },
+        "LT" => { :name => "Textbooks" }
       }
     },
     "M" => {
@@ -212,7 +212,7 @@ module LCClasses
       :subclasses => {
         "M"  => { :name => "Music" },
         "ML" => { :name => "Literature on music" },
-        "MT" => { :name => "Instruction and study" },
+        "MT" => { :name => "Instruction and study" }
       }
     },
     "N" => {
@@ -225,7 +225,7 @@ module LCClasses
         "ND" => { :name => "Painting" },
         "NE" => { :name => "Print media" },
         "NK" => { :name => "Decorative arts" },
-        "NX" => { :name => "Arts in general" },
+        "NX" => { :name => "Arts in general" }
       }
     },
     "P" => {
@@ -249,7 +249,7 @@ module LCClasses
         "PR" => { :name => "English literature" },
         "PS" => { :name => "American literature" },
         "PT" => { :name => "Germanic, Scandinavian, and Icelandic literatures" },
-        "PZ" => { :name => "Fiction and juvenile belles lettres" },
+        "PZ" => { :name => "Fiction and juvenile belles lettres" }
       }
     },
     "Q" => {
@@ -266,7 +266,7 @@ module LCClasses
         "QL" => { :name => "Zoology" },
         "QM" => { :name => "Human anatomy" },
         "QP" => { :name => "Physiology" },
-        "QR" => { :name => "Microbiology" },
+        "QR" => { :name => "Microbiology" }
       }
     },
     "R" => {
@@ -288,7 +288,7 @@ module LCClasses
         "RT" => { :name => "Nursing" },
         "RV" => { :name => "Botanic, Thomsonian, and eclectic medicine" },
         "RX" => { :name => "Homeopathy" },
-        "RZ" => { :name => "Other systems of medicine" },
+        "RZ" => { :name => "Other systems of medicine" }
       }
     },
     "S" => {
@@ -299,7 +299,7 @@ module LCClasses
         "SD" => { :name => "Forestry" },
         "SF" => { :name => "Animal culture" },
         "SH" => { :name => "Aquaculture. Fisheries. Angling" },
-        "SK" => { :name => "Hunting sports" },
+        "SK" => { :name => "Hunting sports" }
       }
     },
     "T" => {
@@ -321,7 +321,7 @@ module LCClasses
         "TR" => { :name => "Photography" },
         "TS" => { :name => "Manufactures" },
         "TT" => { :name => "Handicrafts. Arts and crafts" },
-        "TX" => { :name => "Home economics" },
+        "TX" => { :name => "Home economics" }
       }
     },
     "U" => {
@@ -335,7 +335,7 @@ module LCClasses
         "UE" => { :name => "Cavalry. Armor" },
         "UF" => { :name => "Artillery" },
         "UG" => { :name => "Military engineering. Air forces" },
-        "UH" => { :name => "Other services" },
+        "UH" => { :name => "Other services" }
       }
     },
     "V" => {
@@ -350,14 +350,14 @@ module LCClasses
         "VF" => { :name => "Naval ordnance" },
         "VG" => { :name => "Minor services of navies" },
         "VK" => { :name => "Navigation. Merchant marine" },
-        "VM" => { :name => "Naval architecture. Shipbuilding. Marine engineering" },
+        "VM" => { :name => "Naval architecture. Shipbuilding. Marine engineering" }
       }
     },
     "Z" => {
       :name => "Bibliography, Library Science",
       :subclasses => {
         "Z"   => { :name => "Books (General). Writing. Paleography. Book industries and trade. Libraries. Bibliography" },
-        "ZA"  => { :name => "Information resources (General)" },
+        "ZA"  => { :name => "Information resources (General)" }
       }
     }
   }
