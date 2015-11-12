@@ -124,12 +124,6 @@ Style/SingleLineMethods:
   Exclude:
     - 'lib/lcclasses.rb'
 
-# Offense count: 7
-# Cop supports --auto-correct.
-Style/SpaceAfterComma:
-  Exclude:
-    - 'lib/lcclasses.rb'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/TrailingWhitespace:

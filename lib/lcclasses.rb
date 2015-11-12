@@ -4,11 +4,11 @@ module LCClasses
     # Convert nested LCClasses::CLASS_HASH to nested array.
     def self.nest(hash)
       return self[] if hash.nil?
-      hash.sort { |a,b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
+      hash.sort { |a, b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
         if klass[1][:subclasses]
-          result << self[klass[0],klass[1][:name], self.nest(klass[1][:subclasses])]
+          result << self[klass[0], klass[1][:name], self.nest(klass[1][:subclasses])]
         else
-          result << self[klass[0],klass[1][:name]]
+          result << self[klass[0], klass[1][:name]]
         end
       end
     end
@@ -16,8 +16,8 @@ module LCClasses
     # Convert nested LCClasses::CLASS_HASH to flat array.
     def self.flatten(hash)
       return self[] if hash.nil?
-      hash.sort { |a,b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
-        result << self[klass[0],klass[1][:name]]
+      hash.sort { |a, b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
+        result << self[klass[0], klass[1][:name]]
         result += self.flatten(klass[1][:subclasses])
       end
     end
@@ -364,8 +364,8 @@ module LCClasses
 
   # An array of main LC Classes.
   def self.main_classes
-    CLASS_HASH.map do |k,v|
-      LCClasses::LCClass[k,v[:name]]
+    CLASS_HASH.map do |k, v|
+      LCClasses::LCClass[k, v[:name]]
     end.sort
   end
 
