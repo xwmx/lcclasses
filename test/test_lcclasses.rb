@@ -9,7 +9,7 @@ describe LCClasses do
   it 'should return subclasses' do
     assert_equal 223, LCClasses.subclasses.length
   end
-  
+
   it 'should should return flat' do
     assert_equal 244, LCClasses.flat.length
   end
