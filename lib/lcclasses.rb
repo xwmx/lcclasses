@@ -29,10 +29,14 @@ module LCClasses
     end
 
     # The class code.
-    def code; self[0] end
+    def code
+      self[0]
+    end
 
     # THe class name.
-    def name; self[1] end
+    def name
+      self[1]
+    end
   end
 
   # Library of Congress Main Classes and Subclasses

@@ -110,13 +110,6 @@ Style/SingleLineBlockParams:
   Exclude:
     - 'test/test_lcclasses.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: AllowIfMethodIsEmpty.
-Style/SingleLineMethods:
-  Exclude:
-    - 'lib/lcclasses.rb'
-
 # Offense count: 13
 # Cop supports --auto-correct.
 Style/UnneededPercentQ:
