@@ -30,6 +30,7 @@ module LCClasses
 
     # The class code.
     def code; self[0] end
+
     # THe class name.
     def name; self[1] end
   end
