@@ -1,6 +1,5 @@
 module LCClasses
   class LCClass < Array
-
     # Convert nested LCClasses::CLASS_HASH to nested array.
     def self.nest(hash)
       return self[] if hash.nil?
