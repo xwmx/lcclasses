@@ -115,9 +115,3 @@ Style/SingleLineBlockParams:
 Style/UnneededPercentQ:
   Exclude:
     - 'lcclasses.gemspec'
-
-# # Offense count: 2
-# # Cop supports --auto-correct.
-# # Configuration parameters: WordRegex.
-# Style/WordArray:
-#   MinSize: 2
