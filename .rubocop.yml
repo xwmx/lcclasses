@@ -5,3 +5,12 @@
 # https://github.com/bbatsov/rubocop#configuration
 
 inherit_from: .rubocop_todo.yml
+
+# Disable %w / %W array of words warning.
+#
+# Disable this cop because it encourages mixing array styles.
+#
+# Cop supports --auto-correct.
+# Configuration parameters: WordRegex.
+Style/WordArray:
+  MinSize: 5
