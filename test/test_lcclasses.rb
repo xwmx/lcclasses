@@ -16,7 +16,7 @@ describe LCClasses do
 
   it 'should should return nested' do
     assert_equal 21, LCClasses.nested.length
-    assert_equal 223, LCClasses.nested.inject([]) { |r, m| r += m.subclasses }.length
+    assert_equal 223, LCClasses.nested.inject([]) { |a, e| a += e.subclasses }.length
   end
 
   it 'should find main class or subclass by code' do

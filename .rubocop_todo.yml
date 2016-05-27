@@ -95,13 +95,6 @@ Style/RedundantSelf:
     - 'lib/lcclasses.rb'
 
 # Offense count: 1
-# Configuration parameters: Methods.
-# Methods: {"reduce"=>["a", "e"]}, {"inject"=>["a", "e"]}
-Style/SingleLineBlockParams:
-  Exclude:
-    - 'test/test_lcclasses.rb'
-
-# Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: AllowForAlignment.
 Style/SpaceAroundOperators:
