@@ -88,13 +88,6 @@ Style/ParenthesesAroundCondition:
   Exclude:
     - 'lib/lcclasses.rb'
 
-# Offense count: 13
-# Cop supports --auto-correct.
-# Configuration parameters: PreferredDelimiters.
-Style/PercentLiteralDelimiters:
-  Exclude:
-    - 'lcclasses.gemspec'
-
 # Offense count: 3
 # Cop supports --auto-correct.
 Style/RedundantSelf:
