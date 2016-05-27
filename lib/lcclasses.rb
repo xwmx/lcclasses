@@ -4,11 +4,11 @@ module LCClasses
     def self.nest(hash)
       return self[] if hash.nil?
       hash.sort { |a, b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
-        if klass[1][:subclasses]
-          result << self[klass[0], klass[1][:name], self.nest(klass[1][:subclasses])]
-        else
-          result << self[klass[0], klass[1][:name]]
-        end
+        result << if klass[1][:subclasses]
+                    self[klass[0], klass[1][:name], self.nest(klass[1][:subclasses])]
+                  else
+                    self[klass[0], klass[1][:name]]
+                  end
       end
     end
 
