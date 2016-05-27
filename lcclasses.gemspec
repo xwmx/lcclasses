@@ -14,13 +14,13 @@ Gem::Specification.new do |s|
   s.email = %q(hi@williammelody.com)
   s.extra_rdoc_files = [
     'LICENSE',
-     'README.markdown'
+     'README.md'
   ]
   s.files = [
     '.document',
      '.gitignore',
      'LICENSE',
-     'README.markdown',
+     'README.md',
      'Rakefile',
      'lcclasses.gemspec',
      'lib/lcclasses.rb',
