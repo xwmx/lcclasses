@@ -23,8 +23,9 @@ module LCClasses
 
     # Return the subclasses of this class, if any.
     def subclasses
-      return unless i = LCClasses::CLASS_HASH[self[0]]
-      LCClasses::LCClass.nest(i[:subclasses])
+      class_data = LCClasses::CLASS_HASH[self[0]]
+      return if class_data.nil? || class_data.empty?
+      LCClasses::LCClass.nest(class_data[:subclasses])
     end
 
     # The class code.
