@@ -27,12 +27,6 @@ Metrics/LineLength:
 Metrics/ModuleLength:
   Max: 355
 
-# Offense count: 10
-# Cop supports --auto-correct.
-Style/AlignArray:
-  Exclude:
-    - 'lcclasses.gemspec'
-
 # Offense count: 2
 Style/Documentation:
   Exclude:

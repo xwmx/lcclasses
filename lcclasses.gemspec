@@ -14,18 +14,18 @@ Gem::Specification.new do |s|
   s.email = %q(hi@williammelody.com)
   s.extra_rdoc_files = [
     'LICENSE',
-     'README.md'
+    'README.md'
   ]
   s.files = [
     '.document',
-     '.gitignore',
-     'LICENSE',
-     'README.md',
-     'Rakefile',
-     'lcclasses.gemspec',
-     'lib/lcclasses.rb',
-     'test/helper.rb',
-     'test/test_lcclasses.rb'
+    '.gitignore',
+    'LICENSE',
+    'README.md',
+    'Rakefile',
+    'lcclasses.gemspec',
+    'lib/lcclasses.rb',
+    'test/helper.rb',
+    'test/test_lcclasses.rb'
   ]
   s.homepage = %q(http://github.com/alphabetum/lcclasses)
   s.licenses = ['MIT']
@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.summary = %q(Library of Congress Classification classes and subclasses)
   s.test_files = [
     'test/helper.rb',
-     'test/test_lcclasses.rb'
+    'test/test_lcclasses.rb'
   ]
 
   if s.respond_to? :specification_version then
