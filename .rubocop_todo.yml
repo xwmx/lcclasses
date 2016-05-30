@@ -50,13 +50,6 @@ Style/EmptyLinesAroundModuleBody:
   Exclude:
     - 'lib/lcclasses.rb'
 
-# Offense count: 267
-# Cop supports --auto-correct.
-# Configuration parameters: SupportedStyles, UseHashRocketsWithSymbolValues.
-# SupportedStyles: ruby19, ruby19_no_mixed_keys, hash_rockets
-Style/HashSyntax:
-  EnforcedStyle: hash_rockets
-
 # Offense count: 2
 # Cop supports --auto-correct.
 Style/MultilineIfThen:

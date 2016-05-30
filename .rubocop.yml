@@ -6,6 +6,10 @@
 
 inherit_from: .rubocop_todo.yml
 
+# Set enforced hash syntax style to hash rockets.
+Style/HashSyntax:
+  EnforcedStyle: hash_rockets
+
 # Disable %w / %W array of words warning.
 #
 # Disable this cop because it encourages mixing array styles.
