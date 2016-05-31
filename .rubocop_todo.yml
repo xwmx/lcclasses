@@ -50,12 +50,6 @@ Style/EmptyLinesAroundModuleBody:
   Exclude:
     - 'lib/lcclasses.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-Style/MultilineIfThen:
-  Exclude:
-    - 'lcclasses.gemspec'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/MutableConstant:
