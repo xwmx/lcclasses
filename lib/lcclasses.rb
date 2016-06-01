@@ -407,7 +407,7 @@ module LCClasses
 
   # Find all main classes and subclass that match or start with a code or character.
   def self.find_all_by_code(code)
-    LCClasses.flat.select { |i| i[0] if (i[0] =~ /^#{code}[A-Z]?[A-Z]?/) }
+    LCClasses.flat.select { |i| i[0] if i[0] =~ /^#{code}[A-Z]?[A-Z]?/ }
   end
 
 end
