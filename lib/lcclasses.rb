@@ -365,7 +365,7 @@ module LCClasses
         'ZA'  => { :name => 'Information resources (General)' }
       }
     }
-  }
+  }.freeze
 
   # An array of main LC Classes.
   def self.main_classes

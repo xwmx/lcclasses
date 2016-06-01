@@ -52,12 +52,6 @@ Style/EmptyLinesAroundModuleBody:
 
 # Offense count: 1
 # Cop supports --auto-correct.
-Style/MutableConstant:
-  Exclude:
-    - 'lib/lcclasses.rb'
-
-# Offense count: 1
-# Cop supports --auto-correct.
 # Configuration parameters: AllowSafeAssignment.
 Style/ParenthesesAroundCondition:
   Exclude:
