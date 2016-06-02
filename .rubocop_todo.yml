@@ -54,9 +54,3 @@ Style/RedundantSelf:
 Style/SpaceAroundOperators:
   Exclude:
     - 'test/test_lcclasses.rb'
-
-# Offense count: 13
-# Cop supports --auto-correct.
-Style/UnneededPercentQ:
-  Exclude:
-    - 'lcclasses.gemspec'
