@@ -409,5 +409,4 @@ module LCClasses
   def self.find_all_by_code(code)
     LCClasses.flat.select { |i| i[0] if i[0] =~ /^#{code}[A-Z]?[A-Z]?/ }
   end
-
 end

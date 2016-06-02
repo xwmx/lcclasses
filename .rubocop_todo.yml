@@ -42,14 +42,6 @@ Style/EmptyLinesAroundBlockBody:
   Exclude:
     - 'test/test_lcclasses.rb'
 
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-# SupportedStyles: empty_lines, no_empty_lines
-Style/EmptyLinesAroundModuleBody:
-  Exclude:
-    - 'lib/lcclasses.rb'
-
 # Offense count: 3
 # Cop supports --auto-correct.
 Style/RedundantSelf:
