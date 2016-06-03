@@ -44,7 +44,7 @@ describe LCClasses do
         'A' => {
           :name => 'General Works',
           :subclasses => {
-            'AC'   => { :name => 'Collections; Series; Collected works' }
+            'AC' => { :name => 'Collections; Series; Collected works' }
           }
         }
       }
