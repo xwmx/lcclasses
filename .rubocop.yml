@@ -6,6 +6,10 @@
 
 inherit_from: .rubocop_todo.yml
 
+# Disable documentation checks.
+Documentation:
+  Enabled: false
+
 # Set enforced hash syntax style to hash rockets.
 Style/HashSyntax:
   EnforcedStyle: hash_rockets

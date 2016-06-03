@@ -28,13 +28,6 @@ Metrics/ModuleLength:
   Max: 355
 
 # Offense count: 2
-Style/Documentation:
-  Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'lib/lcclasses.rb'
-
-# Offense count: 2
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 # SupportedStyles: empty_lines, no_empty_lines
