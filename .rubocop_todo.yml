@@ -22,11 +22,6 @@ Metrics/AbcSize:
 Metrics/LineLength:
   Max: 133
 
-# Offense count: 1
-# Configuration parameters: CountComments.
-Metrics/ModuleLength:
-  Max: 355
-
 # Offense count: 2
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
