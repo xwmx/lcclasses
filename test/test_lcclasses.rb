@@ -1,7 +1,6 @@
 require 'helper'
 
 describe LCClasses do
-
   it 'should return main classes' do
     assert_equal 21, LCClasses.main_classes.length
   end
@@ -38,7 +37,6 @@ describe LCClasses do
   end
 
   describe LCClasses::LCClass do
-
     def setup
       @hash = {
         'A' => {
