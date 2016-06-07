@@ -17,7 +17,7 @@ module LCClasses
       return self[] if hash.nil?
       hash.sort { |a, b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
         result << self[klass[0], klass[1][:name]]
-        result += self.flatten(klass[1][:subclasses])
+        result + self.flatten(klass[1][:subclasses])
       end
     end
 
@@ -377,7 +377,7 @@ module LCClasses
   # An array of all LC Subclasses.
   def self.subclasses
     self.main_classes.inject([]) do |result, main_class|
-      result += main_class.subclasses
+      result + main_class.subclasses
     end
   end
 
