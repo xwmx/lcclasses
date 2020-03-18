@@ -6,17 +6,29 @@
 
 inherit_from: .rubocop_todo.yml
 
-# Disable documentation checks.
-Documentation:
-  Enabled: false
-
 # Disable module length cop.
 Metrics/ModuleLength:
+  Enabled: false
+
+# Disable documentation checks.
+Style/Documentation:
   Enabled: false
 
 # Set enforced hash syntax style to hash rockets.
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
+
+# TODO: Remove when Rubocop hits version 1.0.
+Style/HashEachMethods:
+  Enabled: true
+
+# TODO: Remove when Rubocop hits version 1.0.
+Style/HashTransformKeys:
+  Enabled: true
+
+# TODO: Remove when Rubocop hits version 1.0.
+Style/HashTransformValues:
+  Enabled: true
 
 # Disable %w / %W array of words warning.
 #
