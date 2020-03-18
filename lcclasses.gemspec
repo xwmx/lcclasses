@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'lcclasses'
-  s.version = '0.1.1'
+  s.version = '0.2.0'
   s.licenses = ['MIT']
   s.summary = 'Library of Congress Classification classes and subclasses.'
   s.description = 'Library of Congress Classification classes and subclasses.'
