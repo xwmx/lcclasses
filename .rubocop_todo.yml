@@ -46,13 +46,6 @@ Style/RedundantSelf:
   Exclude:
     - 'lib/lcclasses.rb'
 
-# Offense count: 4
-# Cop supports --auto-correct.
-Style/StderrPuts:
-  Exclude:
-    - 'Rakefile'
-    - 'test/helper.rb'
-
 # Offense count: 41
 # Cop supports --auto-correct.
 # Configuration parameters: AutoCorrect, AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
