@@ -40,19 +40,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 59
 
-# Offense count: 6
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: always, always_true, never
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'lcclasses.gemspec'
-    - 'lib/lcclasses.rb'
-    - 'test/helper.rb'
-    - 'test/test_lcclasses.rb'
-
 # Offense count: 3
 # Cop supports --auto-correct.
 Style/RedundantSelf:

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module LCClasses
   class LCClass < Array
     # Convert nested LCClasses::CLASS_HASH to nested array.
