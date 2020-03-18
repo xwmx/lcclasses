@@ -40,12 +40,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 59
 
-# Offense count: 1
-# Cop supports --auto-correct.
-Style/Encoding:
-  Exclude:
-    - 'Rakefile'
-
 # Offense count: 6
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
