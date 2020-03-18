@@ -5,6 +5,7 @@ module LCClasses
     # Convert nested LCClasses::CLASS_HASH to nested array.
     def self.nest(hash)
       return self[] if hash.nil?
+
       hash.sort { |a, b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
         result << if klass[1][:subclasses]
                     self[klass[0], klass[1][:name], self.nest(klass[1][:subclasses])]
@@ -17,6 +18,7 @@ module LCClasses
     # Convert nested LCClasses::CLASS_HASH to flat array.
     def self.flatten(hash)
       return self[] if hash.nil?
+
       hash.sort { |a, b| a[0] <=> b[0] }.inject(self[]) do |result, klass|
         result << self[klass[0], klass[1][:name]]
         result + self.flatten(klass[1][:subclasses])
@@ -27,6 +29,7 @@ module LCClasses
     def subclasses
       class_data = LCClasses::CLASS_HASH[self[0]]
       return if class_data.nil? || class_data.empty?
+
       LCClasses::LCClass.nest(class_data[:subclasses])
     end
 
