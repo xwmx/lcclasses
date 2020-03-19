@@ -1,12 +1,25 @@
 # LCCLasses
 
-A Ruby gem that provides the Library of Congress Classification system main classes and subclasses along with some convenience methods.
+A Ruby gem that provides the
+[Library of Congress Classification](https://www.loc.gov/catdir/cpso/lcc.html)
+system main classes and subclasses along with some convenience methods.
 
-To install:
+## Installation
+
+LCCLasses is available on [RubyGems](https://rubygems.org/gems/lcclasses):
 
 ```bash
 gem install lcclasses
 ```
+
+To install with [Bundler](https://bundler.io/), add the following to your
+Gemfile:
+
+```ruby
+gem 'lcclasses'
+```
+
+Then run `bundle install`
 
 ## Usage
 
@@ -48,7 +61,11 @@ The `CLASS_HASH` constant is in the following format (truncated example):
 }
 ```
 
-Classes are returned as specialized LCClasses::Class arrays in the format `[code, name]`. In the case of nested LCClasses:LCClass objects, they are in the format `[main_class_code, main_class_name, [[subclass_code, subclass_name]]]`. These objects are normal arrays with the following methods added:
+Classes are returned as specialized LCClasses::Class arrays in the format
+`[code, name]`. In the case of nested LCClasses:LCClass objects, they are in
+the format
+`[main_class_code, main_class_name, [[subclass_code, subclass_name]]]`.
+These objects are normal arrays with the following methods added:
 
 ```ruby
 @class = LCClasses.find_main_class_by_code("M")
