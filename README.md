@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/xwmx/lcclasses.svg?branch=master)](https://travis-ci.org/xwmx/lcclasses)
-
 # LCCLasses
+
+[![Build Status](https://travis-ci.org/xwmx/lcclasses.svg?branch=master)](https://travis-ci.org/xwmx/lcclasses)
+[![Gem Version](https://img.shields.io/gem/v/lcclasses?color=blue)](http://rubygems.org/gems/lcclasses)
 
 A Ruby gem that provides the
 [Library of Congress Classification](https://www.loc.gov/catdir/cpso/lcc.html)
