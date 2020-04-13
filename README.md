@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/xwmx/lcclasses.svg?branch=master)](https://travis-ci.org/xwmx/lcclasses)
+
 # LCCLasses
 
 A Ruby gem that provides the
